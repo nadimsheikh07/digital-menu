@@ -1,11 +1,9 @@
 import React from 'react';
 import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import { useStyles } from './styles'
 import MenuData from '../../data/menu.json'
-
+import ListItem from './item';
 const ResMenu = () => {
     const classes = useStyles();
     return (
@@ -15,9 +13,7 @@ const ResMenu = () => {
                     <ul className={classes.ul}>
                         <ListSubheader>{menu.name}</ListSubheader>
                         {menu?.items.map((item) => (
-                            <ListItem key={`item-${menu.name}-${item.name}`}>
-                                <ListItemText primary={item.name} />
-                            </ListItem>
+                            <ListItem key={`item-${menu.name}-${item.name}`} data={item} />
                         ))}
                     </ul>
                 </li>
