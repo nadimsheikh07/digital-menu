@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pizza",
+        "items": [
+            {
+                "name": "Veg Pizza",
+                "price": 100,
+                "isNonVeg": false
+            },
+            {
+                "name": "None Veg Pizza",
+                "price": 150,
+                "isNonVeg": true
+            }
+        ]
+    },
+    {
+        "name": "Burger",
+        "items": [
+            {
+                "name": "Veg Burger",
+                "price": 100,
+                "isNonVeg": false
+            },
+            {
+                "name": "None Veg Burger",
+                "price": 160,
+                "isNonVeg": true
+            }
+        ]
+    }
+]
