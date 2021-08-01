@@ -3,7 +3,7 @@ import VegSign from './vegSign'
 const Item = ({ data }) => {
     const { name, price, image } = data
     return (
-        <ListItem key={name} button>
+        <ListItem key={name}>
             <ListItemAvatar>
                 <Avatar
                     alt={name}
@@ -11,9 +11,9 @@ const Item = ({ data }) => {
                 />
             </ListItemAvatar>
             <ListItemText id={name} primary={name} secondary={price} />
-            <ListItemSecondaryAction>
+            {/* <ListItemSecondaryAction>
                 <VegSign item={data} />
-            </ListItemSecondaryAction>
+            </ListItemSecondaryAction> */}
         </ListItem>
     )
 }

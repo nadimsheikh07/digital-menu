@@ -21,13 +21,10 @@ const Index = (props) => {
             <HideOnScroll {...props}>
                 <AppBar>
                     <Toolbar>
-                        <Typography variant="h6" style={{ flexGrow: 1 }}>{title}</Typography>
+                        <Typography variant="h6">{title}</Typography>
                         {action}
                     </Toolbar>
                 </AppBar>
-
-
-
             </HideOnScroll>
             <Toolbar id="back-to-top-anchor" />
             <Container>
