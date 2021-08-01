@@ -1,8 +1,11 @@
 import ResMenu from '../component/menu'
+import Layout from '../component/layout'
 
 const Home = () => {
   return (
-    <ResMenu/>
+    <Layout title="ResName">
+      <ResMenu />
+    </Layout>
   )
 }
 

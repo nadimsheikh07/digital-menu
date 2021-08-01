@@ -1,5 +1,5 @@
 import { createTheme } from '@material-ui/core/styles';
-import { red } from '@material-ui/core/colors';
+import { green, red } from '@material-ui/core/colors';
 
 // Create a theme instance.
 const theme = createTheme({
@@ -8,6 +8,9 @@ const theme = createTheme({
       main: '#556cd6',
     },
     secondary: {
+      main: green.A400,
+    },
+    default: {
       main: '#19857b',
     },
     error: {
