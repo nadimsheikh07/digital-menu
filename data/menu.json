@@ -5,11 +5,13 @@
             {
                 "name": "Veg Pizza",
                 "price": 100,
+                "image":"/images/pizza.png",
                 "veg": true,
                 "agg": false
             },
             {
                 "name": "None Veg Pizza",
+                "image":"/images/pizza.png",
                 "price": 150,
                 "veg": false,
                 "agg": false
@@ -21,12 +23,14 @@
         "items": [
             {
                 "name": "Veg Burger",
+                "image":"/images/pizza.png",
                 "price": 100,
                 "veg": true,
                 "agg": false
             },
             {
                 "name": "None Veg Burger",
+                "image":"/images/pizza.png",
                 "price": 160,
                 "veg": false,
                 "agg": false
