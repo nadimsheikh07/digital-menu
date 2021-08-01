@@ -9,7 +9,7 @@ const ResMenu = () => {
     return (
         <List className={classes.root} subheader={<li />}>
             {MenuData.map((menu) => (
-                <li key={`section-${menu.className}`} className={classes.listSection}>
+                <li key={`section-${menu.name}`} className={classes.listSection}>
                     <ul className={classes.ul}>
                         <MenuHeader data={menu} />
                         {menu?.items.map((item) => (
