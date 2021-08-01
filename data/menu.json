@@ -23,14 +23,14 @@
         "items": [
             {
                 "name": "Veg Burger",
-                "image":"/images/pizza.png",
+                "image":"/images/burger.jpeg",
                 "price": 100,
                 "veg": true,
                 "agg": false
             },
             {
                 "name": "None Veg Burger",
-                "image":"/images/pizza.png",
+                "image":"/images/burger.jpeg",
                 "price": 160,
                 "veg": false,
                 "agg": false
