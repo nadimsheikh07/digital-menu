@@ -5,12 +5,14 @@
             {
                 "name": "Veg Pizza",
                 "price": 100,
-                "isNonVeg": false
+                "veg": true,
+                "agg": false
             },
             {
                 "name": "None Veg Pizza",
                 "price": 150,
-                "isNonVeg": true
+                "veg": false,
+                "agg": false
             }
         ]
     },
@@ -20,12 +22,14 @@
             {
                 "name": "Veg Burger",
                 "price": 100,
-                "isNonVeg": false
+                "veg": true,
+                "agg": false
             },
             {
                 "name": "None Veg Burger",
                 "price": 160,
-                "isNonVeg": true
+                "veg": false,
+                "agg": false
             }
         ]
     }
