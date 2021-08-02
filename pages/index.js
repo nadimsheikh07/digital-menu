@@ -3,7 +3,7 @@ import Layout from '../component/layout'
 
 const Home = () => {
   return (
-    <Layout title="ResName">
+    <Layout title={process.env.NEXT_PUBLIC_APP_NAME}>
       <ResMenu />
     </Layout>
   )
