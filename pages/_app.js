@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     if (jssStyles) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
-  }, []);
+  });
 
   return (
     <React.Fragment>
