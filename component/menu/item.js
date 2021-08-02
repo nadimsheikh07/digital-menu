@@ -1,4 +1,4 @@
-import { Avatar, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText, Typography } from "@material-ui/core"
+import { Avatar, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText } from "@material-ui/core"
 import VegSign from './vegSign'
 const Item = ({ data }) => {
     const { name, price, image } = data
@@ -11,9 +11,9 @@ const Item = ({ data }) => {
                 />
             </ListItemAvatar>
             <ListItemText id={name} primary={name} secondary={price} />
-            {/* <ListItemSecondaryAction>
+            <ListItemSecondaryAction>
                 <VegSign item={data} />
-            </ListItemSecondaryAction> */}
+            </ListItemSecondaryAction>
         </ListItem>
     )
 }

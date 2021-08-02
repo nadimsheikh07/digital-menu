@@ -7,7 +7,7 @@ import MenuHeader from './header';
 const ResMenu = () => {
     const classes = useStyles();
     return (
-        <List className={classes.root} subheader={<li />}>
+        <List className={classes.root} component="nav" subheader={<li />}>
             {MenuData.map((menu) => (
                 <li key={`list-${menu.id}`} className={classes.listSection}>
                     <ul className={classes.ul}>
