@@ -2,25 +2,37 @@ import ResMenu from '../component/menu'
 import Layout from '../component/layout'
 import React from 'react'
 import { apiConfig } from '../utils/apiconfig'
+import { useRouter } from 'next/router'
 
 const Home = () => {
-
+  const router = useRouter()
   const [menuData, setMenuData] = React.useState([])
+  const [orgName, setOrgName] = React.useState("")
 
-  const getMenu = async () => {
-    await apiConfig.get('/json/menu.json').then((response) => {
+  const getMenu = async (org_code) => {
+    let url = ''
+    if (org_code) {
+      url = `/json/${org_code}.json`
+    } else {
+      url = '/json/menu.json'
+    }
+
+    await apiConfig.get(url).then((response) => {
       if (response.status = 200) {
-        setMenuData(response.data)
+        const { org_name, menu } = response.data
+        setOrgName(org_name)
+        setMenuData(menu)
       }
     })
   }
 
   React.useEffect(() => {
-    getMenu()
-  }, [])
+    const { org_code } = router.query
+    getMenu(org_code)
+  }, [router, router.query])
 
   return (
-    <Layout title={process.env.NEXT_PUBLIC_APP_NAME}>
+    <Layout title={orgName}>
       <ResMenu menuData={menuData} />
     </Layout>
   )
