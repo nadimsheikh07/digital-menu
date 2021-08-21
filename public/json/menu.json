@@ -47,7 +47,7 @@
         },
         {
             "id": "pizza1",
-            "name": "Pizza",
+            "name": "Pizza 1",
             "items": [
                 {
                     "id": "veg-pizza",
@@ -69,7 +69,95 @@
         },
         {
             "id": "burger1",
-            "name": "Burger",
+            "name": "Burger 1",
+            "items": [
+                {
+                    "id": "veg-burger",
+                    "name": "Veg Burger",
+                    "image": "/images/burger.jpeg",
+                    "price": 100,
+                    "veg": true,
+                    "agg": false
+                },
+                {
+                    "id": "non-veg-burger",
+                    "name": "Non Veg Burger",
+                    "image": "/images/burger.jpeg",
+                    "price": 160,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "pizza2",
+            "name": "Pizza 2",
+            "items": [
+                {
+                    "id": "veg-pizza",
+                    "name": "Veg Pizza",
+                    "price": 100,
+                    "image": "/images/pizza.png",
+                    "veg": true,
+                    "agg": false
+                },
+                {
+                    "id": "non-veg-pizza",
+                    "name": "Non Veg Pizza",
+                    "image": "/images/pizza.png",
+                    "price": 150,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "burger2",
+            "name": "Burger 2",
+            "items": [
+                {
+                    "id": "veg-burger",
+                    "name": "Veg Burger",
+                    "image": "/images/burger.jpeg",
+                    "price": 100,
+                    "veg": true,
+                    "agg": false
+                },
+                {
+                    "id": "non-veg-burger",
+                    "name": "Non Veg Burger",
+                    "image": "/images/burger.jpeg",
+                    "price": 160,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "pizza3",
+            "name": "Pizza 3",
+            "items": [
+                {
+                    "id": "veg-pizza",
+                    "name": "Veg Pizza",
+                    "price": 100,
+                    "image": "/images/pizza.png",
+                    "veg": true,
+                    "agg": false
+                },
+                {
+                    "id": "non-veg-pizza",
+                    "name": "Non Veg Pizza",
+                    "image": "/images/pizza.png",
+                    "price": 150,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "burger3",
+            "name": "Burger 3",
             "items": [
                 {
                     "id": "veg-burger",
