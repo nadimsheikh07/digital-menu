@@ -1,7 +1,7 @@
 import ResMenu from '../component/menu'
 import Layout from '../component/layout'
 import React from 'react'
-import { apiConfig } from '../lib/apiconfig'
+import { apiConfig } from '../utils/apiconfig'
 import { useRouter } from 'next/router'
 
 const Home = () => {
