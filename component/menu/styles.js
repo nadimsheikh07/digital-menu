@@ -10,6 +10,11 @@ export const useStyles = makeStyles((theme) => ({
         overflow: 'auto',
         maxHeight: 600,
     },
+    listHeader: {
+        backgroundColor: 'inherit',
+        fontSize: 15,
+        fontWeight: "bolder"
+    },
     listItem: {
         backgroundColor: 'inherit',
     },
