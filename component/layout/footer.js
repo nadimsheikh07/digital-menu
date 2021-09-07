@@ -25,21 +25,21 @@ const useStyles = makeStyles({
     },
 });
 
-export default function AppFooter() {
+export default function AppFooter({ openMenu }) {
     const classes = useStyles();
 
     return (
         <AppBar position="fixed" color="primary" className={classes.appBar}>
             <Toolbar>
-                
-                <Fab color="secondary" aria-label="add" className={classes.fabButton}>
+
+                <Fab color="secondary" aria-label="add" className={classes.fabButton} onClick={(e) => { openMenu(e) }}>
                     <MenuIcon />
                 </Fab>
                 <div className={classes.grow} />
-                
-                <IconButton edge="end" color="inherit">
+
+                {/* <IconButton edge="end" color="inherit">
                     <MoreIcon />
-                </IconButton>
+                </IconButton> */}
             </Toolbar>
         </AppBar>
     );
