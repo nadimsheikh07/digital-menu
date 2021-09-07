@@ -1,11 +1,6 @@
-import { find } from 'lodash'
+import { find, set, remove } from 'lodash'
 export const initCart = async () => {
-    const cartItem = JSON.stringify([{
-        "id": "veg-pizza",
-        "name": "Veg Pizza",
-        "price": 100,
-        "quantity": 2
-    }]);
+    const cartItem = JSON.stringify([]);
     if (process.browser) {
         await localStorage.setItem(`${process.env.NEXT_PUBLIC_APP_NAME}CART`, cartItem)
     }
@@ -24,24 +19,24 @@ export const getCart = async () => {
 
 export const addToCart = async (item, quantity) => {
     if (process.browser) {
-        let finalCart = []
         const carts = await getCart()
+
         let cartItem = find(carts, { id: item.id });
         if (cartItem) {
-            finalCart.push({
-                id: item.id,
-                name: item.name,
-                price: item.price,
-                quantity: cartItem.quantity + quantity
-            })
+            if (quantity == 0) {
+                remove(carts, { id: item.id })
+            } else {
+                set(find(carts, { id: item.id }), 'quantity', quantity)
+            }
         } else {
-            finalCart.push({
+            carts.push({
                 id: item.id,
                 name: item.name,
                 price: item.price,
                 quantity: quantity
             })
         }
-        await localStorage.setItem(`${process.env.NEXT_PUBLIC_APP_NAME}CART`, JSON.stringify(finalCart))
+
+        await localStorage.setItem(`${process.env.NEXT_PUBLIC_APP_NAME}CART`, JSON.stringify(carts))
     }
 }

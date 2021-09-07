@@ -13,7 +13,14 @@ const Home = () => {
   const [orgName, setOrgName] = React.useState("")
   const [scrollId, setScrollId] = React.useState(undefined)
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [carts, setCarts] = React.useState([])
+  const [updateCart, setUpdateCart] = React.useState(false)
 
+  React.useEffect(async () => {
+      const carts = await getCart()
+      setCarts(carts)
+      setUpdateCart(false)
+  }, [updateCart])
 
   const openMenu = (event) => {
     if (event) {
@@ -35,8 +42,8 @@ const Home = () => {
 
     await apiConfig.get(url).then((response) => {
       if (response.status = 200) {
-        const { org_name, menu } = response.data
-        setOrgName(org_name)
+        const { org_name,phone, menu } = response.data
+        setOrgName(`${org_name} (${phone})`)
         setMenuData(menu)
       }
     })
@@ -64,7 +71,7 @@ const Home = () => {
 
   return (
     <Layout title={orgName}>
-      <ResMenu menuData={menuData} scrollId={scrollId} />
+      <ResMenu menuData={menuData} scrollId={scrollId} carts={carts} setUpdateCart={setUpdateCart}/>
 
       <Popover
         id={id}
