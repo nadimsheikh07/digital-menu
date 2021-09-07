@@ -3,6 +3,7 @@ import Layout from '../component/layout'
 import React from 'react'
 import { apiConfig } from '../config/apiConfig'
 import { useRouter } from 'next/router'
+import AppFooter from '../component/layout/footer'
 
 const Home = () => {
   const router = useRouter()
@@ -34,6 +35,7 @@ const Home = () => {
   return (
     <Layout title={orgName}>
       <ResMenu menuData={menuData} />
+      <AppFooter />
     </Layout>
   )
 }

@@ -24,8 +24,12 @@ export const useStyles = makeStyles((theme) => ({
     },
     menuBtn: {
         position: 'absolute',
-        bottom: theme.spacing(2),
-        right: theme.spacing(2),
+        bottom: theme.spacing(10),
+        // right: theme.spacing(20),
+        alignItems: 'center',
+        alignContent: 'center',
+        textAlign: 'center',
+        zIndex: 10,
         '&:hover': {
             backgroundColor: theme.palette.secondary,
         },

@@ -45,7 +45,7 @@ const ResMenu = ({ menuData }) => {
                 ))}
             </List>
 
-            <Fab color="primary" aria-label="add" className={classes.menuBtn} onClick={handleClick}>
+            <Fab color="primary" className={classes.menuBtn} onClick={handleClick}>
                 Menu
             </Fab>
 
