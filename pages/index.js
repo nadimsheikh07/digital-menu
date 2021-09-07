@@ -5,6 +5,7 @@ import { apiConfig } from '../config/apiConfig'
 import { useRouter } from 'next/router'
 import AppFooter from '../component/layout/footer'
 import { List, ListItem, ListItemText, Popover } from '@material-ui/core';
+import { getCart, initCart } from '../utils/cart'
 
 const Home = () => {
   const router = useRouter()
@@ -12,6 +13,7 @@ const Home = () => {
   const [orgName, setOrgName] = React.useState("")
   const [scrollId, setScrollId] = React.useState(undefined)
   const [anchorEl, setAnchorEl] = React.useState(null);
+
 
   const openMenu = (event) => {
     if (event) {
@@ -44,6 +46,13 @@ const Home = () => {
     const { org_code } = router.query
     getMenu(org_code)
   }, [router, router.query])
+
+  React.useEffect(async () => {
+    const cart = await getCart()
+    if (!cart) {
+      await initCart()
+    }
+  }, [])
 
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popover' : undefined;
