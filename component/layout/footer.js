@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function AppFooter({ openMenu, carts }) {
+export default function AppFooter({ openMenu, carts, phone }) {
     const classes = useStyles();
 
     let showOrder = false
@@ -35,14 +35,14 @@ export default function AppFooter({ openMenu, carts }) {
 
 
     const sendOrder = () => {
-        let message = ''        
+        let message = 'Please Take My Order \n'
         if (carts) {
             carts.forEach(element => {
-                message += `${element.name} ${element.quantity} <br/>`
+                message += `${element.name} = ${element.quantity} \n`
             });
         }
         const text = encodeURI(message)
-        const url = `${process.env.NEXT_PUBLIC_WHATSAPP_URL}?phone=+91%209928736111&text=${text}`
+        const url = `${process.env.NEXT_PUBLIC_WHATSAPP_URL}?phone=${phone}&text=${text}`
         window.open(url, '_blank', 'noopener,noreferrer')
     }
 
