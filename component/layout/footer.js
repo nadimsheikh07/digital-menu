@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Fab from '@material-ui/core/Fab';
 import MenuIcon from '@material-ui/icons/Menu';
-import MoreIcon from '@material-ui/icons/MoreVert';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 const useStyles = makeStyles({
     appBar: {
@@ -25,8 +25,26 @@ const useStyles = makeStyles({
     },
 });
 
-export default function AppFooter({ openMenu }) {
+export default function AppFooter({ openMenu, carts, phone }) {
     const classes = useStyles();
+
+    let showOrder = false
+    if (carts && carts.length) {
+        showOrder = true
+    }
+
+
+    const sendOrder = () => {
+        let message = 'Please Take My Order \n'
+        if (carts) {
+            carts.forEach(element => {
+                message += `${element.name} = ${element.quantity} \n`
+            });
+        }
+        const text = encodeURI(message)
+        const url = `${process.env.NEXT_PUBLIC_WHATSAPP_URL}?phone=${phone}&text=${text}`
+        window.open(url, '_blank', 'noopener,noreferrer')
+    }
 
     return (
         <AppBar position="fixed" color="primary" className={classes.appBar}>
@@ -37,9 +55,9 @@ export default function AppFooter({ openMenu }) {
                 </Fab>
                 <div className={classes.grow} />
 
-                {/* <IconButton edge="end" color="inherit">
-                    <MoreIcon />
-                </IconButton> */}
+                {showOrder && <IconButton edge="end" color="inherit" onClick={() => sendOrder()}>
+                    <WhatsAppIcon />
+                </IconButton>}
             </Toolbar>
         </AppBar>
     );

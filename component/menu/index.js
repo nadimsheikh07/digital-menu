@@ -5,7 +5,7 @@ import MenuHeader from './header';
 import { List } from '@material-ui/core';
 
 
-const ResMenu = ({ menuData, scrollId }) => {
+const ResMenu = ({ carts, menuData, scrollId, setUpdateCart }) => {
     const classes = useStyles();
     const itemRefs = React.useRef([]);
 
@@ -24,7 +24,7 @@ const ResMenu = ({ menuData, scrollId }) => {
                         <ul className={classes.ul}>
                             <MenuHeader data={menu} />
                             {menu?.items.map((item) => (
-                                <MenuItem key={`list-item-${menu.id}-${item.id}`} data={item} />
+                                <MenuItem setUpdateCart={setUpdateCart} carts={carts} key={`list-item-${menu.id}-${item.id}`} data={item} />
                             ))}
                         </ul>
                     </li>
