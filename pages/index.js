@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <Layout title={orgName}>
       <ResMenu menuData={menuData} />
-      <AppFooter />
+      {/* <AppFooter /> */}
     </Layout>
   )
 }
