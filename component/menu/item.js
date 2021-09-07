@@ -11,8 +11,7 @@ const Item = ({ data, carts, setUpdateCart }) => {
         setUpdateCart(true)
     }
 
-    let cartItem = find(carts, { id: data.id });
-    console.log('cartItem', cartItem)
+    let cartItem = find(carts, { id: data.id });    
 
     const SecondaryText = () => {
         return (

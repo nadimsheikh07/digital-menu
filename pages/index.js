@@ -97,7 +97,7 @@ const Home = () => {
         </List>
       </Popover>
 
-      <AppFooter openMenu={openMenu} />
+      <AppFooter openMenu={openMenu} carts={carts}/>
     </Layout>
   )
 }
