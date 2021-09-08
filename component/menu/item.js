@@ -1,6 +1,5 @@
 import React from 'react'
 import { Avatar, Button, ButtonGroup, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText } from "@material-ui/core"
-import VegSign from './vegSign'
 import { find } from 'lodash'
 import { addToCart } from '../../utils/cart'
 const Item = ({ data, carts, setUpdateCart }) => {
@@ -11,16 +10,7 @@ const Item = ({ data, carts, setUpdateCart }) => {
         setUpdateCart(true)
     }
 
-    let cartItem = find(carts, { id: data.id });    
-
-    const SecondaryText = () => {
-        return (
-            <>
-                <VegSign item={data} />
-                <span style={{ marginTop: 3, marginLeft: 10, position: "absolute" }}>{price}</span>
-            </>
-        )
-    }
+    let cartItem = find(carts, { id: data.id });
 
     return (
         <ListItem button>
@@ -30,7 +20,7 @@ const Item = ({ data, carts, setUpdateCart }) => {
                     src={image}
                 />
             </ListItemAvatar>
-            <ListItemText id={name} primary={name} secondary={<SecondaryText />} />
+            <ListItemText id={name} primary={name} secondary={price} />
 
             <ListItemSecondaryAction>
                 {!cartItem && <Button variant="contained" color="primary" onClick={() => itemAddToCart(1)}>Add</Button>}
