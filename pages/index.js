@@ -15,7 +15,7 @@ const Home = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [carts, setCarts] = React.useState([])
   const [updateCart, setUpdateCart] = React.useState(false)
-  const [phone, setPhone] = React.useState("")
+  const [phone, setPhone] = React.useState(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER)
 
   React.useEffect(async () => {
     const carts = await getCart()
