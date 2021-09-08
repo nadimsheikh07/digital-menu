@@ -11,6 +11,7 @@ const Home = () => {
   const router = useRouter()
   const [menuData, setMenuData] = React.useState([])
   const [orgName, setOrgName] = React.useState("")
+  const [orgCode, setOrgCode] = React.useState(null)
   const [scrollId, setScrollId] = React.useState(undefined)
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [carts, setCarts] = React.useState([])
@@ -18,13 +19,15 @@ const Home = () => {
   const [phone, setPhone] = React.useState(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER)
   const [table, setTable] = React.useState(null)
 
+
   React.useEffect(() => {
     const { table } = router.query
     setTable(table)
   }, [router.query])
 
   React.useEffect(async () => {
-    const carts = await getCart()
+    const { org_code } = router.query
+    const carts = await getCart(org_code)
     setCarts(carts)
     setUpdateCart(false)
   }, [updateCart])
@@ -39,12 +42,10 @@ const Home = () => {
     setAnchorEl(null);
   };
 
-  const getMenu = async (org_code) => {
+  const getMenu = async (orgCode) => {
     let url = ''
-    if (org_code) {
-      url = `/json/${org_code}.json`
-    } else {
-      url = '/json/menu.json'
+    if (orgCode) {
+      url = `/json/${orgCode}.json`
     }
 
     await apiConfig.get(url).then((response) => {
@@ -57,17 +58,14 @@ const Home = () => {
     })
   }
 
-  React.useEffect(() => {
-    const { org_code } = router.query
-    getMenu(org_code)
-  }, [router, router.query])
-
   React.useEffect(async () => {
-    const cart = await getCart()
-    if (!cart) {
-      await initCart()
+    const { org_code } = router.query
+    if (org_code) {
+      await initCart(org_code)
+      await getMenu(org_code)
+      setOrgCode(org_code)
     }
-  }, [])
+  }, [router, router.query])
 
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popover' : undefined;
@@ -79,7 +77,7 @@ const Home = () => {
 
   return (
     <Layout title={orgName}>
-      <ResMenu menuData={menuData} scrollId={scrollId} carts={carts} setUpdateCart={setUpdateCart} />
+      <ResMenu menuData={menuData} scrollId={scrollId} carts={carts} setUpdateCart={setUpdateCart} orgCode={orgCode} />
 
       <Popover
         id={id}
@@ -105,7 +103,7 @@ const Home = () => {
         </List>
       </Popover>
 
-      <AppFooter openMenu={openMenu} phone={phone} carts={carts} table={table}/>
+      <AppFooter openMenu={openMenu} phone={phone} carts={carts} table={table} />
     </Layout>
   )
 }

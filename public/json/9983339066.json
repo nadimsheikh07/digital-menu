@@ -1,0 +1,58 @@
+{
+    "org_name": "Typing Master",
+    "phone": "+91 9983339066",
+    "menu": [
+        {
+            "id": "stamp",
+            "name": "Stamp",
+            "items": [
+                {
+                    "id": "stamp-50",
+                    "name": "Stamp 50 RS",
+                    "price": 50,
+                    "image": "",
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "stamp-100",
+                    "name": "Stamp 100 RS",
+                    "price": 100,
+                    "image": "",
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "stamp-500",
+                    "name": "Stamp 500 RS",
+                    "price": 500,
+                    "image": "",
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "typing",
+            "name": "Typing",
+            "items": [
+                {
+                    "id": "typing-resume",
+                    "name": "Resume Typing",
+                    "price": 100,
+                    "image": "",
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "typing-legal",
+                    "name": "Legal Typing",
+                    "price": 200,
+                    "image": "",
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        }
+    ]
+}

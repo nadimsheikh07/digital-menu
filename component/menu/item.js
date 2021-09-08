@@ -2,11 +2,11 @@ import React from 'react'
 import { Avatar, Button, ButtonGroup, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText } from "@material-ui/core"
 import { find } from 'lodash'
 import { addToCart } from '../../utils/cart'
-const Item = ({ data, carts, setUpdateCart }) => {
+const Item = ({ data, carts, setUpdateCart, orgCode }) => {
     const { name, price, image } = data
 
     const itemAddToCart = (quantity) => {
-        addToCart(data, quantity)
+        addToCart(orgCode, data, quantity)
         setUpdateCart(true)
     }
 

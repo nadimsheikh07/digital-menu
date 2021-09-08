@@ -1,14 +1,14 @@
 import { find, set, remove } from 'lodash'
-export const initCart = async () => {
+export const initCart = async (orgCode) => {
     const cartItem = JSON.stringify([]);
     if (process.browser) {
-        await localStorage.setItem(`${process.env.NEXT_PUBLIC_APP_NAME}CART`, cartItem)
+        await localStorage.setItem(`${process.env.NEXT_PUBLIC_APP_NAME}${orgCode}CART`, cartItem)
     }
 }
 
-export const getCart = async () => {
+export const getCart = async (orgCode) => {
     if (process.browser) {
-        const cart = await localStorage.getItem(`${process.env.NEXT_PUBLIC_APP_NAME}CART`)
+        const cart = await localStorage.getItem(`${process.env.NEXT_PUBLIC_APP_NAME}${orgCode}CART`)
         if (cart) {
             const cartItem = JSON.parse(cart)
             return cartItem
@@ -17,9 +17,9 @@ export const getCart = async () => {
     return null
 }
 
-export const addToCart = async (item, quantity) => {
+export const addToCart = async (orgCode, item, quantity) => {
     if (process.browser) {
-        const carts = await getCart()
+        const carts = await getCart(orgCode)
 
         let cartItem = find(carts, { id: item.id });
         if (cartItem) {
@@ -37,6 +37,6 @@ export const addToCart = async (item, quantity) => {
             })
         }
 
-        await localStorage.setItem(`${process.env.NEXT_PUBLIC_APP_NAME}CART`, JSON.stringify(carts))
+        await localStorage.setItem(`${process.env.NEXT_PUBLIC_APP_NAME}${orgCode}CART`, JSON.stringify(carts))
     }
 }
