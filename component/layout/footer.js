@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function AppFooter({ openMenu, carts, phone }) {
+export default function AppFooter({ openMenu, carts, phone, table }) {
     const classes = useStyles();
 
     let showOrder = false
@@ -36,6 +36,11 @@ export default function AppFooter({ openMenu, carts, phone }) {
 
     const sendOrder = () => {
         let message = 'Please Take My Order \n'
+
+        if (table) {
+            message += `Table Number = ${table} \n`
+        }
+
         if (carts) {
             carts.forEach(element => {
                 message += `${element.name} = ${element.quantity} \n`

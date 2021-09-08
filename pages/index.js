@@ -16,6 +16,12 @@ const Home = () => {
   const [carts, setCarts] = React.useState([])
   const [updateCart, setUpdateCart] = React.useState(false)
   const [phone, setPhone] = React.useState(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER)
+  const [table, setTable] = React.useState(null)
+
+  React.useEffect(() => {
+    const { table } = router.query
+    setTable(table)
+  }, [router.query])
 
   React.useEffect(async () => {
     const carts = await getCart()
@@ -99,7 +105,7 @@ const Home = () => {
         </List>
       </Popover>
 
-      <AppFooter openMenu={openMenu} phone={phone} carts={carts} />
+      <AppFooter openMenu={openMenu} phone={phone} carts={carts} table={table}/>
     </Layout>
   )
 }
