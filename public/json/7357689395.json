@@ -1,0 +1,154 @@
+{
+    "org_name": "Arabic Food",
+    "phone": "+91 7357689395",
+    "menu": [
+        {
+            "id": "1",
+            "name": "अरबिक स्पेशल ब्रेकफास्ट",
+            "items": [
+                {
+                    "id": "1-1",
+                    "name": "लाहम टुमाट",
+                    "price": 50,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-2",
+                    "name": "दिजाज टुमाट",
+                    "price": 55,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-3",
+                    "name": "गेल गल लाहम",
+                    "price": 50,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-4",
+                    "name": "बेथ बिल लाहम",
+                    "price": 40,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-5",
+                    "name": "हम्मुस सादा",
+                    "price": 35,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-6",
+                    "name": "हम्मुस लाहम",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-7",
+                    "name": "मुत्तबल सादा",
+                    "price": 35,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-8",
+                    "name": "मुत्तबल लाहम",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-9",
+                    "name": "किबदा",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-10",
+                    "name": "किमा कलेजी पाया",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "स्पेशल सिगड़ी ड्राय",
+            "items": [
+                {
+                    "id": "2-1",
+                    "name": "सिक मटन कबाब",
+                    "price": 50,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-2",
+                    "name": "सिक चिकन कबाब",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-3",
+                    "name": "फिश टिक्का",
+                    "price": 240,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-4",
+                    "name": "कलेजी टिक्का",
+                    "price": 220,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-5",
+                    "name": "शीगफ मटन टिक्का",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-6",
+                    "name": "शीश ताऊक",
+                    "price": 250,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-7",
+                    "name": "फिश कबाब",
+                    "price": 220,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        }
+    ]
+}
