@@ -149,6 +149,68 @@
                     "agg": false
                 }
             ]
+        },
+        {
+            "id": "3",
+            "name": "चायनीज़ स्टार्टर",
+            "items": [
+                {
+                    "id": "3-1",
+                    "name": "चिकन दाना (हाफ 500GM)",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-1",
+                    "name": "चिकन दाना (1KG)",
+                    "price": 300,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-1",
+                    "name": "चिकन चिल्ली प्लेट",
+                    "price": 170,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-1",
+                    "name": "चिकन लोली पोप (6PC)",
+                    "price": 200,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-1",
+                    "name": "फ़्राय राइस",
+                    "price": 120,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-1",
+                    "name": "शेजवान राईस",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-1",
+                    "name": "चिकन टिक्का राइस",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
         }
     ]
 }
