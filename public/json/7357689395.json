@@ -320,6 +320,22 @@
                 },
                 {
                     "id": "5-9",
+                    "name": "शेजवान टिक्का",
+                    "price": 180,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-10",
+                    "name": "पेशावरी टिक्का",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-11",
                     "name": "पेशावरी थाई",
                     "price": 150,
                     "image": null,
@@ -327,7 +343,7 @@
                     "agg": false
                 },
                 {
-                    "id": "5-10",
+                    "id": "5-12",
                     "name": "मलाई टिक्का",
                     "price": 200,
                     "image": null,
@@ -335,7 +351,7 @@
                     "agg": false
                 },
                 {
-                    "id": "5-11",
+                    "id": "5-13",
                     "name": "गार्लिक टिक्का",
                     "price": 210,
                     "image": null,
@@ -343,7 +359,7 @@
                     "agg": false
                 },
                 {
-                    "id": "5-12",
+                    "id": "5-14",
                     "name": "जाफरानी टिक्का",
                     "price": 350,
                     "image": null,
@@ -351,7 +367,7 @@
                     "agg": false
                 },
                 {
-                    "id": "5-13",
+                    "id": "5-15",
                     "name": "तन्दूरी चिकन हाफ",
                     "price": 210,
                     "image": null,
@@ -359,7 +375,7 @@
                     "agg": false
                 },
                 {
-                    "id": "5-14",
+                    "id": "5-16",
                     "name": "तन्दूरी चिकन फुल",
                     "price": 400,
                     "image": null,
@@ -367,7 +383,7 @@
                     "agg": false
                 },
                 {
-                    "id": "5-15",
+                    "id": "5-17",
                     "name": "पठानी मुर्गा हाफ",
                     "price": 210,
                     "image": null,
@@ -375,7 +391,7 @@
                     "agg": false
                 },
                 {
-                    "id": "5-16",
+                    "id": "5-18",
                     "name": "पठानी मुर्गा फुल",
                     "price": 400,
                     "image": null,
