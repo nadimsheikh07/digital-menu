@@ -1,0 +1,966 @@
+{
+    "org_name": "Arabic Food",
+    "phone": "+91 7891059755",
+    "menu": [
+        {
+            "id": "1",
+            "name": "अरबिक स्पेशल ब्रेकफास्ट",
+            "items": [
+                {
+                    "id": "1-1",
+                    "name": "लाहम टुमाट",
+                    "price": 50,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-2",
+                    "name": "दिजाज टुमाट",
+                    "price": 55,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-3",
+                    "name": "गेल गल लाहम",
+                    "price": 50,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-4",
+                    "name": "बेथ बिल लाहम",
+                    "price": 40,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-5",
+                    "name": "हम्मुस सादा",
+                    "price": 35,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-6",
+                    "name": "हम्मुस लाहम",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-7",
+                    "name": "मुत्तबल सादा",
+                    "price": 35,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-8",
+                    "name": "मुत्तबल लाहम",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-9",
+                    "name": "किबदा",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "1-10",
+                    "name": "किमा कलेजी पाया",
+                    "price": 60,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "स्पेशल सिगड़ी ड्राय",
+            "items": [
+                {
+                    "id": "2-1",
+                    "name": "सिक मटन कबाब(6PC)",
+                    "price": 110,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-2",
+                    "name": "सिक चिकन कबाब",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-3",
+                    "name": "फिश टिक्का",
+                    "price": 240,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-4",
+                    "name": "कलेजी टिक्का",
+                    "price": 220,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-5",
+                    "name": "शीगफ मटन टिक्का",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-6",
+                    "name": "शीश ताऊक",
+                    "price": 250,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "2-7",
+                    "name": "फिश कबाब",
+                    "price": 220,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "चायनीज़ स्टार्टर",
+            "items": [
+                {
+                    "id": "3-1",
+                    "name": "चिकन दाना (हाफ 500GM)",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-2",
+                    "name": "चिकन दाना (1KG)",
+                    "price": 300,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-3",
+                    "name": "चिकन चिल्ली प्लेट",
+                    "price": 170,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-4",
+                    "name": "चिकन लोली पोप (6PC)",
+                    "price": 200,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-5",
+                    "name": "फ़्राय राइस",
+                    "price": 120,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-6",
+                    "name": "शेजवान राईस",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "3-7",
+                    "name": "चिकन टिक्का राइस",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "तवा स्पेशल",
+            "items": [
+                {
+                    "id": "4-1",
+                    "name": "किमा",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "4-2",
+                    "name": "गुर्दा कलेजी",
+                    "price": 100,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "4-3",
+                    "name": "मटन भुना",
+                    "price": 140,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "4-4",
+                    "name": "तवा स्टीक",
+                    "price": 190,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "सिगड़ी द्राय",
+            "items": [
+                {
+                    "id": "5-1",
+                    "name": "तन्दूरी लेग पीस",
+                    "price": 120,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-2",
+                    "name": "गोल्डन थाई",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-3",
+                    "name": "चिकन टिक्का",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-4",
+                    "name": "ग्रीन थाई",
+                    "price": 140,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-5",
+                    "name": "मिनटर थाई",
+                    "price": 200,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-6",
+                    "name": "पहाड़ी मुर्ग फुल ",
+                    "price": 400,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-7",
+                    "name": "समर लेग",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-8",
+                    "name": "गोल्डन टिक्का",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-9",
+                    "name": "शेजवान टिक्का",
+                    "price": 180,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-10",
+                    "name": "पेशावरी टिक्का",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-11",
+                    "name": "पेशावरी थाई",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-12",
+                    "name": "मलाई टिक्का",
+                    "price": 200,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-13",
+                    "name": "गार्लिक टिक्का",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-14",
+                    "name": "जाफरानी टिक्का",
+                    "price": 350,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-15",
+                    "name": "तन्दूरी चिकन हाफ",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-16",
+                    "name": "तन्दूरी चिकन फुल",
+                    "price": 400,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-17",
+                    "name": "पठानी मुर्गा हाफ",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "5-18",
+                    "name": "पठानी मुर्गा फुल",
+                    "price": 400,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "बोनलेस ग्रेवी",
+            "items": [
+                {
+                    "id": "6-1",
+                    "name": "बोनलेस टिक्का मसाला",
+                    "price": 140,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "6-2",
+                    "name": "बोनलेस हैदराबादी",
+                    "price": 170,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "6-3",
+                    "name": "बोनलेस पोदीना टिक्का मसाला",
+                    "price": 180,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "6-4",
+                    "name": "बोनलेस पठानी टिक्का मसाला",
+                    "price": 170,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "6-5",
+                    "name": "बोनलेस हैदराबादी स्टीक",
+                    "price": 200,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "6-6",
+                    "name": "बोनलेस मलाई सटीक",
+                    "price": 190,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "अण्डा ग्रेवी",
+            "items": [
+                {
+                    "id": "7-1",
+                    "name": "अण्डा करी",
+                    "price": 80,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "7-2",
+                    "name": "अण्डा हैदराबादी करी",
+                    "price": 90,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "चिकन ग्रेवी",
+            "items": [
+                {
+                    "id": "8-1",
+                    "name": "चिकन मसाला",
+                    "price": 120,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-2",
+                    "name": "चिकन करी",
+                    "price": 120,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-3",
+                    "name": "चिकन हांडी",
+                    "price": 140,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-4",
+                    "name": "चिकन कड़ाई",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-5",
+                    "name": "चिकन कोलपुरी",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-6",
+                    "name": "चिकन मुगलाई",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-7",
+                    "name": "चिकन कस्तुरी",
+                    "price": 170,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-8",
+                    "name": "बटर चिकन हाफ",
+                    "price": 250,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-9",
+                    "name": "बटर चिकन बोनलेस",
+                    "price": 180,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-10",
+                    "name": "चिकन पठानी कड़ाई",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-11",
+                    "name": "चिकन अंगारा",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-12",
+                    "name": "चिकन पंजाबी",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-13",
+                    "name": "चिकन दरबारी",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-14",
+                    "name": "चिकन मुमताज़",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-15",
+                    "name": "चिकन लेमन",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-16",
+                    "name": "चिकन चंगेजी",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-17",
+                    "name": "चिकन राजस्थानी",
+                    "price": 155,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-18",
+                    "name": "चिकन मुस्कान",
+                    "price": 165,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-19",
+                    "name": "चिकन अफ़गानी",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-20",
+                    "name": "चिकन कश्मीरी",
+                    "price": 170,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-21",
+                    "name": "चिकन पटना",
+                    "price": 170,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-22",
+                    "name": "चिकन अहमदाबादी",
+                    "price": 180,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-23",
+                    "name": "चिकन दावत",
+                    "price": 190,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "8-24",
+                    "name": "चिकन थाई ग्रेवी",
+                    "price": 400,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "मटन ग्रेवी",
+            "items": [
+                {
+                    "id": "9-1",
+                    "name": "मटन मसाला (हाफ)",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-2",
+                    "name": "मटन मसाला (फुल)",
+                    "price": 250,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-3",
+                    "name": "मटन हांड़ी (हाफ)",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-4",
+                    "name": "मटन हांड़ी (फुल) ",
+                    "price": 270,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-5",
+                    "name": "मटन कड़ाई (हाफ)",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-6",
+                    "name": "मटन कड़ाई (फुल)",
+                    "price": 270,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-7",
+                    "name": "मटन ग्रीन (हाफ)",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-8",
+                    "name": "मटन ग्रीन (फुल)",
+                    "price": 280,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-9",
+                    "name": "मटन भुना (हाफ)",
+                    "price": 160,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-10",
+                    "name": "मटन भुना (फुल)",
+                    "price": 280,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-11",
+                    "name": "मटन मुगलाई (हाफ)",
+                    "price": 150,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "9-12",
+                    "name": "मटन मुगलाई (फुल) ",
+                    "price": 290,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "रोटी",
+            "items": [
+                {
+                    "id": "10-1",
+                    "name": "तन्दूरी रोटी",
+                    "price": 10,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "10-2",
+                    "name": "चपाती",
+                    "price": 10,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "10-3",
+                    "name": "लच्छा पराठा",
+                    "price": 20,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "10-4",
+                    "name": "रुमाली रोटी",
+                    "price": 10,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "अरबिक स्पेशल",
+            "items": [
+                {
+                    "id": "11-1",
+                    "name": "शिश ताऊक",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-2",
+                    "name": "शिगफ मटन टिक्का ",
+                    "price": 210,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-3",
+                    "name": "कलेजी टिक्का ",
+                    "price": 220,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-4",
+                    "name": "फिश टिक्का (समक)",
+                    "price": 240,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-5",
+                    "name": "फिश कबाब",
+                    "price": 220,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-6",
+                    "name": "कबाब इराकी (मटन)",
+                    "price": 110,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-7",
+                    "name": "कबाब दिजाज (तुर्किश)",
+                    "price": 130,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-8",
+                    "name": "अलफाहाम",
+                    "price": 450,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-9",
+                    "name": "शिश ताउक",
+                    "price": 250,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-10",
+                    "name": "शिगफ मटन",
+                    "price": 300,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "11-11",
+                    "name": "असलम बटर चिकन",
+                    "price": 750,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "रविवार स्पेशल",
+            "items": [
+                {
+                    "id": "12-1",
+                    "name": "चिकन भुलभुलैया ",
+                    "price": 650,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "12-2",
+                    "name": "गार्डन तवा ",
+                    "price": 610,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "12-3",
+                    "name": "चिकन अजमेरी बोनलेस ",
+                    "price": 270,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "12-4",
+                    "name": "बिग बोन ",
+                    "price": 260,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "12-5",
+                    "name": "चिकन हल चल",
+                    "price": 710,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                },
+                {
+                    "id": "12-6",
+                    "name": "चिकन फनटूश ",
+                    "price": 870,
+                    "image": null,
+                    "veg": false,
+                    "agg": false
+                }
+            ]
+        }
+    ]
+}
